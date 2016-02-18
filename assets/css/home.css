@@ -3,6 +3,7 @@ body
 	background-color: #CCC;
     margin: 0;
 }
+
 .fixedheader
 {
 	position:fixed;
@@ -14,8 +15,8 @@ body
 	padding:20px;
     z-index: 2;
     opacity: 0.8;
-
 }
+
 .fixedfooter
 {
 	position:fixed;
@@ -28,6 +29,7 @@ body
     z-index: 2;
     opacity: 0.8;
 }
+
 .button 
 {
     background-color: Transparent;
@@ -35,20 +37,12 @@ body
     color: wheat;
     padding: 5px 10px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 22px;
     font-weight: 700;
     font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 }
-.pictureContainer
-{
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-   
-}
+
 .textContainer
 {
     position: fixed;
@@ -57,7 +51,6 @@ body
     left: 100px;
     top: 350px;
     font-size: 60;
-    /*color: #E1DEEA;*/
     color: black;
     font-weight: 800; 
     z-index: 1;
@@ -73,6 +66,5 @@ body
 
 .button:hover
 {
-/*color: #550000;*/
-background-color: #080413;
+    background-color: #080413;
 }
