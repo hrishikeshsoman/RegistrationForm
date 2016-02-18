@@ -1,0 +1,78 @@
+body 
+{
+	background-color: #CCC;
+    margin: 0;
+}
+.fixedheader
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:20px;
+    z-index: 2;
+    opacity: 0.8;
+
+}
+.fixedfooter
+{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:20px;
+    z-index: 2;
+    opacity: 0.8;
+}
+.button 
+{
+    background-color: Transparent;
+    border: none;
+    color: wheat;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+.pictureContainer
+{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+   
+}
+.textContainer
+{
+    position: fixed;
+    width :600px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    left: 100px;
+    top: 350px;
+    font-size: 60;
+    /*color: #E1DEEA;*/
+    color: black;
+    font-weight: 800; 
+    z-index: 1;
+}
+
+.image 
+{ 
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.button:hover
+{
+/*color: #550000;*/
+background-color: #080413;
+}
