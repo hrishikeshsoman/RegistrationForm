@@ -2,9 +2,10 @@ body
 {
 	background-color: #CCC;
     margin: 0;
+    padding: 0;
 }
 
-.fixedheader
+.fixedHeader
 {
 	position:fixed;
 	top:0px;
@@ -17,7 +18,7 @@ body
     opacity: 0.8;
 }
 
-.fixedfooter
+.fixedFooter
 {
 	position:fixed;
 	bottom:0px;
@@ -30,7 +31,7 @@ body
     opacity: 0.8;
 }
 
-.button 
+.navigationButton 
 {
     background-color: Transparent;
     border: none;
@@ -64,7 +65,7 @@ body
     z-index: -1;
 }
 
-.button:hover
+.navigationButton:hover
 {
     background-color: #080413;
 }
